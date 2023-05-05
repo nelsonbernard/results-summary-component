@@ -37,3 +37,125 @@ body{
     margin: 0 auto;  
     background-color: var(--pale-blue);
 }
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.card{
+    display: grid repeat(auto-fill, 1fr);
+    align-content: center;
+    text-align: center;
+}
+
+#card__summary h3{
+    text-align: left;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-block: 1rem;
+}
+
+.flex{
+    display: flex;
+    gap: .75rem;
+}
+
+.category p span{
+    font-weight: 800;
+}
+
+.category p img{
+
+}
+
+.results{
+
+}
+
+.results h1{
+    font-size: 4rem;
+}
+
+.results h4{
+    color: var(--light-lavender);
+}
+
+#card__results, #card__summary{
+    flex: 1;
+    padding: 2rem;
+}
+
+#card__results{
+    background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue-bg));
+    color: white;
+}
+
+#card__results h3{
+    color: var(--light-lavender);
+}
+
+#card__results p{
+    color: var(--light-lavender);
+}
+
+#reaction{
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+
+#memory{
+    background-color: hsla(39, 100%, 56%, 10%);
+}
+
+#verbal{
+    background-color: hsla(166, 100%, 37%, 10%);
+}
+
+#visual{
+    background-color: hsla(224, 30%, 27%, 10%);
+}
+
+.light-red{
+    color: var(--light-red);
+}
+
+.orangey-yellow{
+    color: var(--orangey-yellow);
+}
+
+.green-teal{
+    color: var(--green-teal);
+}
+
+.cobalt-blue{
+    color: var(--cobalt-blue);
+}
+
+#btn-continue{
+    background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue-bg));
+    color: var(--white);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5rem;
+    margin-block: 1rem;
+}
